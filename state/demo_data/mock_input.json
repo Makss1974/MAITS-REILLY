@@ -1,0 +1,25 @@
+{
+  "query_id": "DEMO_REQ_888",
+  "levels_payload": [
+    {
+      "title": "Tender for rolled metal delivery to factory",
+      "text_snippet": "Billion ruble budget allocated. Severe shortage of CNC operators.",
+      "relevance": 0.95,
+      "days_ago": 2,
+      "importance": 0.9,
+      "sentiment": 0.6,
+      "source_positioning": 0.8,
+      "source_authority": 1.5
+    },
+    {
+      "title": "Logistics delays on railway routes",
+      "text_snippet": "Platform wagons delayed by 14 days due to infrastructure overload.",
+      "relevance": 0.85,
+      "days_ago": 1,
+      "importance": 0.9,
+      "sentiment": -0.4,
+      "source_positioning": 0.1,
+      "source_authority": 1.2
+    }
+  ]
+}

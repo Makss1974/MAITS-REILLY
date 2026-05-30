@@ -1,0 +1,62 @@
+{
+  "query_id": "REQ_A9DEE7B6A2",
+  "analyzed_at": 1779529853.8941615,
+  "overall_confidence": 0.8075,
+  "bottlenecks": [
+    "Дефіцит інженерних кадрів вузької спеціалізації",
+    "Затримки залізничного прокату на вузлах"
+  ],
+  "forecast_summary": "З ймовірністю 74% система увійде у фазу логістичного тромбу протягом 3-4 місяців через виявлені вузькі місця.",
+  "advisory_notes": "Критичні вузькі місця інфраструктури: Дефіцит інженерних кадрів вузької спеціалізації, Затримки залізничного прокату на вузлах. Аналіз інверсії вказує на внутрішні аномалії звітності об'єктів.",
+  "layers_output": {
+    "L1_GREENE_ROOT_CAUSE": {
+      "status": "DETERMINED",
+      "primary_driver": "Максимізація темпів завантаження ВПК-вузлів через держзамовлення",
+      "hidden_intent": "Приховування дефіциту сировини за рахунок розширення логістичних ланцюгів"
+    },
+    "L2_JERVIS_SIGNAL_DISC": {
+      "signal_to_noise_ratio": 3.4,
+      "deception_index": 0.2,
+      "layer_confidence": 0.85
+    },
+    "L3_GOLDRATT_BOTTLENECK": {
+      "critical_constraint": "Кадрова пропускна здатність інфраструктури",
+      "system_capacity_utilization_pct": 92.4,
+      "detected_bottlenecks": [
+        "Дефіцит інженерних кадрів вузької спеціалізації",
+        "Затримки залізничного прокату на вузлах"
+      ]
+    },
+    "L4_SOVIET_INVERSION": {
+      "inversion_markers_found": 1,
+      "anomaly_detected": "Зростання фінансових тендерів при стагнації фізичного відвантаження металу",
+      "counter_intuitive_conclusion": "Реальні темпи розширення ВПК нижчі за декларовані через внутрішні фінансові дірки"
+    },
+    "L5_MARKOV_PROGNOSIS": {
+      "states": [
+        "STABLE",
+        "STRESSED",
+        "CRISIS"
+      ],
+      "transition_matrix": [
+        [
+          0.1,
+          0.7,
+          0.2
+        ],
+        [
+          0.0,
+          0.3,
+          0.7
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "most_probable_state_6_months": "CRISIS",
+      "probability": 0.74
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "query_id": "DEMO_REQ_888",
+  "timestamp": 1780123715.0911446,
+  "overall_confidence": 0.85,
+  "summary_metrics": {
+    "total_signals_verified": 2,
+    "direct_facts_detected": 2,
+    "manipulations_inverted": 0,
+    "average_signal_mass": 0.495,
+    "trust_gate_status": "GROUNDED"
+  },
+  "forecast_summary": "With a 20% probability, the system will enter a STRESSED state in 6 months.",
+  "advisory_notes": "Critical constraints: LOGISTICS_BOTTLENECK. Market manipulation detected: NONE.",
+  "bottlenecks": [
+    "LOGISTICS_BOTTLENECK"
+  ],
+  "layers": {
+    "L1_ROOT_CAUSE_ANALYSIS": {
+      "market_indicator_score": 1.0,
+      "active_market_markers": [
+        "SUPPLY_DEFICIT",
+        "LOGISTICS_DELAY",
+        "PROCUREMENT_SPIKE"
+      ]
+    },
+    "L2_SUPPLY_CHAIN_BOTTLENECKS": {
+      "detected_bottlenecks": [
+        "LOGISTICS_BOTTLENECK"
+      ],
+      "supply_chain_risk_score": 0.8
+    },
+    "L3_CAPITAL_INVERSION_ANOMALY": {
+      "capital_inversion_anomaly_found": true,
+      "financial_vs_physical_risk_score": 0.85,
+      "verdict": "STRUCTURAL_BUBBLE_RISK"
+    },
+    "L4_PROBABILISTIC_RISK_FORECAST": {
+      "most_probable_state_6_months": "STRESSED",
+      "crisis_probability": 0.2,
+      "systemic_stability_index": 0.8
+    }
+  }
+}
